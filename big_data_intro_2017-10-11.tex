@@ -1,0 +1,239 @@
+\documentclass{beamer}
+
+% theme
+\mode<presentation>
+{
+\usetheme{Warsaw}
+
+\setbeamercovered{transparent}
+}
+
+% packages
+% \usepackage{multicol}
+\usepackage{hyperref}
+
+% setting
+\linespread{1.2}
+
+% title page
+\title{An Introduction to Big Data}
+\subtitle{}
+\author{Guo Zhang}
+\institute{China's Prices Project at Xiamen University}
+\date{This Version: \today}
+\subject{Presentation}
+
+% note
+% a long, detailed version for read, not for presentation
+% need a short and well-typed version for presentation
+
+% outline
+% I. what's big data?
+% 1. definition
+%   - volume
+%   - dimension
+% 2. achievements
+%   - research: BPP, political and weibo, internet research
+%   - product: mayixinyong, jinritoutiao(recommendation)
+%     - AlphaGo 1.0 to 2.0: big data to AI
+%   - algorithms: prediction, mechanism design, etc.
+
+% II. Why big data?
+% 1. reasons
+%   - large dataset
+%   - new problems
+% 2. value
+%   - new types of data
+%   - honest data
+%   - zoom in small valuable subset from large data set
+% 3. trick
+%   - more noise on volumes and dimension
+%   - law and institution problems
+
+% III. How to work on big data?
+% 1. workflow
+%    - data collection
+%    - data cleaning
+%    - data management
+%    - data analysis
+%    - data mining
+%    - data visualization 
+%    - data product
+% 2. tech
+%    - MB%GB
+%      - Programming: Python, R
+%      - Visualization: Tableau
+%      - Database: SQL, MongoDB
+%    - TB&PB
+%      - Distributed storage: Hadoop(Hive, ...)
+%      - Distributed computation: Spark
+%      - Cloud computation
+%      - GPU computation
+% 3. theory
+%   - CS
+%     - parallel processing & distributed system
+%     - map-reduce framework
+%   - Stat
+%     - High dimension
+%     - jianjing lilun
+
+% IV. Who are the one for big data?
+% 1. background
+%   - CS
+%   - stats
+%   - field, i.e. econ, business, social, medical
+% 2. ability
+%   - insight mining
+%   - modelling
+%   - engineering
+%   - pre
+% 3. jobs and team
+%    - data engineering: build database and data product (sallary)
+%    - data analytics: use database (sallary)
+ 
+% todo
+% - hadoop, spark, could computing - distrubited system
+ 
+% body
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}[plain]
+\frametitle{Contents}
+% \begin{multicols}{2}
+\tableofcontents[hideallsubsections]
+% \end{multicols}
+\end{frame}
+
+\section{What is Big Data?}
+\subsection{Definition % to improve
+}
+\begin{frame}
+\frametitle{What is Big Data?}
+\begin{itemize}
+\item High volume
+\item High dimension
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{High Volume}
+% to do
+% - pictures
+% - examples
+\end{frame}
+
+\begin{frame}
+\frametitle{High Dimension}
+% to do
+% - pictures
+% - examples
+\end{frame}
+
+\subsection{Achievements % to improve
+} 
+\begin{frame}
+\frametitle{Research with Big Data}
+\begin{itemize}
+\item Billion Prices Project at MIT \footnotemark \footnotetext{http://www.thebillionpricesproject.com}
+\item Jennifer Pan\footnotemark \footnotetext{https://zhuanlan.zhihu.com/p/20829289}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Billion Prices Project at MIT}
+% to do
+% - introduction
+\end{frame}
+
+\begin{frame}
+\frametitle{Jennifer Pan}
+% to do
+% - introduction
+\end{frame}
+
+\begin{frame}
+\frametitle{Products with Big Data}
+\begin{itemize}
+\item Transportation: Uber
+\item Accommodation: AirBnb
+\item Credits: Ant Credits
+\item Feed: Toutiao
+\item AI: AlphaGo
+\item ...
+% to do
+% - more examples
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Transportation - Uber}
+\begin{itemize}
+\item Dynamic pricing
+\item Matching algorithms
+% to do
+% - to improve
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Accommodation - AirBnb}
+% to do
+% - introduction
+\end{frame}
+
+\begin{frame}
+\frametitle{Credits - Ant Credits}
+% to do
+% - introduction
+\end{frame}
+
+\begin{frame}
+\frametitle{Feed - Toutiao}
+% to do
+% - introduction
+\end{frame}
+
+\begin{frame}
+\frametitle{AI - AlphaGo}
+\end{frame}
+
+\begin{frame}
+\frametitle{Algorithms with Big Data} 
+% note: algorithms as part of product but not central
+\begin{itemize}
+\item Ranking and recommendation algorithms, i.e. Taobao, JD, eBay
+\item Demand prediction algorithms, i.e. Uber, Didi
+% to do
+% - to improve
+% - more examples
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Recommendation - }
+% to do
+% - find an example
+\end{frame}
+
+\begin{frame}
+\frametitle{Demand Prediction - Didi}
+\end{frame}
+
+\section{Why Big Data?}
+
+\section{How to Work on Big Data?}
+
+\section{Who are for Big Data?}
+
+\begin{frame}[plain]
+\frametitle{Contents}
+% \begin{multicols}{2}
+\tableofcontents[hideallsubsections]
+% \end{multicols}
+\end{frame}
+
+\end{document}
